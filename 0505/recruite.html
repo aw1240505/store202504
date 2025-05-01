@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>純喫茶ハトの巣-ホーム</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/ico" href="image/logo.png">
+</head>
+<body>
+    <!--<div id="container">                コンテナ-->
+        <header>
+            <div id="back">
+                <div id="head_nav">         <!---ヘッダーナビ-->
+                    <img src="image/logo.png">
+                    <h1>純喫茶ハトの巣</h1>
+                </div>
+                <div class="slideshow">        <!---スライドショーで画像を紹介------->
+                    <div class="slide">
+                        <img src="image/work.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="image/choice.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="image/sugar.jpg">
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <nav>                           <!---ナビ-->
+            <ul>
+                <li><a href="introduce.html" class="link-box"><img src="image/about.png"><span>ハトの巣について</span></a></li>
+                <li><a href="menu.html" class="link-box"><img src="image/cop.png"><span>メニュー</span></a></li>
+                <li><a href="shopping.html" class="link-box"><img src="image/contact.png"><span>お問い合わせ</span></a></li>
+                <li><a href="recruite.html" class="link-box"><img src="image/recruite.png"><span>採用情報</span></a></li>
+            </ul>
+        </nav>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li>採用情報</li>
+            </ul>
+        </div>
+        <div id="main_2_news">
+            <img src="image/header_comment.png">
+            <h2>採用情報</h2>
+        </div>
+        <div class="rec_cont">
+            <div class="rec_img">
+                <img src="image/work.jpg"class="fle_img">
+                <div class="sen_con">
+                    <h2 class="gyoukan">アルバイトの募集</h2>
+                <p class="sent">純喫茶ハトの巣ではアルバイトの募集を行っています。
+                    お客様へのコーヒーの提供及び、店内の清掃を行います。<br>
+                    まかないとして当店オリジナルのコーヒー豆やお菓子を提供させていただくこともあります。
+                </p>
+                <button class="rec_but">詳細はこちら</button>
+                </div>
+            </div>
+            <img src="image/rec_comment.png" class="cmnt">
+        </div>
+        <div id="last">
+            <p id="top">
+                <input type="text" id="searchInput" placeholder="検索語を入力" />
+                <button onclick="searchText()">検索</button>
+                <!--<p id="content">
+                    これはテスト用のコンテンツです。JavaScriptを使ってページ内検索ができます。
+                    検索機能はとても便利です。
+                </p>-->
+                <a href="index.html"<span id="text"><img src="image/home.png">ホームに戻る</span></a>
+            </p>
+        </div>
+        <footer>
+            <div id="foot_img">
+                <a href="index.html"><img src="image/logo.png"></a>
+            </div>
+            <p><small>© Hatono-Su_cafe </small><br>
+                <small>TEL:0120-1093-8103</small></p>
+            <div id="sns_area">
+                <a href="mailto:example@goukaku.com"><img src="image/line.png"></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    <!--</div>--->
+</body>
+</html>

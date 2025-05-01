@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>純喫茶ハトの巣</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/ico" href="image/logo.png">
+</head>
+<body>
+    <!--<div id="container">                コンテナ-->
+        <header>
+            <div id="back">
+                <div id="head_nav">         <!---ヘッダーナビ-->
+                    <img src="image/logo.png">
+                    <h1>純喫茶ハトの巣</h1>
+                </div>
+                <div class="slideshow_int">        <!---スライドショーで画像を紹介------->
+                    <div class="slide_int">
+                        <img src="image/age_2.jpg">
+                    </div>
+                    <div class="slide_int">
+                        <img src="image/age_1.jpg">
+                    </div>
+                    <div class="slide_int">
+                        <img src="image/age_3.jpg">
+                    </div>  
+                    <div class="slide_int">
+                        <img src="image/age_4.jpg">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>                           <!---ナビ-->
+            <ul>
+                <li><a href="introduce.html" class="link-box"><img src="image/about.png"><span>ハトの巣について</span></a></li>
+                <li><a href="menu.html" class="link-box"><img src="image/cop.png"><span>メニュー</span></a></li>
+                <li><a href="shopping.html" class="link-box"><img src="image/contact.png"><span>お問い合わせ</span></a></li>
+                <li><a href="recruite.html" class="link-box"><img src="image/recruite.png"><span>採用情報</span></a></li>
+            </ul>
+        </nav>
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li>ハトの巣とは</li>
+            </ul>
+        </div>
+        <div id="main_1_introduce">      <!---簡単な紹介-->
+            <img src="image/header_comment.png">
+            <h2>ハトの巣とは</h2>
+            <p>喫茶ハトの巣は、<span class="int_col">おいでよどうぶつの森（2005年）からあつまれどうぶつの森（2025年現在）まで</span>続いている有名な喫茶店です。24時間営業しており、コーヒー一杯200円の値段は当時から変わっておらず、
+                とたけけさんやしずえさんといった有名人など、村民の皆から今日まで愛されています！！
+            <p>店名であるハトの巣の由来は、日常のけんそうから離れて本当に安らぐことのできる空間を作りたいとのマスターの願いが込めらています。</p>    
+            </p>
+        </div>
+        <div id="main_2_map">
+            <img src="image/comment_intro.png" class="main_2_img">
+            <img src="image/map.png" class="map_img">
+            <ul>
+                <li><span class="list">店名</span>：純喫茶ハトの巣</li>
+                <li><span class="list">営業時間</span>：２４時間営業</li>
+                <li><span class="list">所在地</span>：どうぶつ村1-02-2</li>
+                <li><span class="list">連絡先</span>：0120-1093-8103</li>
+                <li><span class="list" style="color: rgb(231, 154, 154);">値段</span>：コーヒー一杯200円</li>
+            </ul>
+        </div>
+        <div id="last">
+            <p id="top">
+                <input type="text" id="searchInput" placeholder="検索語を入力" />
+                <button onclick="searchText()">検索</button>
+                <!--<p id="content">
+                    これはテスト用のコンテンツです。JavaScriptを使ってページ内検索ができます。
+                    検索機能はとても便利です。
+                </p>-->
+                <a href="index.html"<span id="text"><img src="image/home.png">ホームに戻る</span></a>
+            </p>
+        </div>
+        <footer>
+            <div id="foot_img">
+                <a href="index.html"><img src="image/logo.png"></a>
+            </div>
+            <p><small>© Hatono-Su_cafe </small><br>
+                <small>TEL:0120-1093-8103</small></p>
+            <div id="sns_area">
+                <a href="mailto:example@goukaku.com"><img src="image/line.png"></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    <!--</div>--->
+</body>
+</html>

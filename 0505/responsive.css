@@ -1,0 +1,148 @@
+@charset  "utf-8";
+@media (max-width: 500px){
+    body{
+        width: 500px;
+    }
+    /*#head_nav{
+        padding-left: 15%;
+    }*/
+    #head_nav img{                  
+        width: 24%;                  /*アイコンの大きさｃｓｓ*/
+    }
+    .slideshow,.slideshow_int{
+        width: 100%;
+        max-width: 500px;
+        height: 380px;
+    }
+
+    nav{
+        padding-left: 0;
+        padding-right: 8%;
+    }
+    nav ul li img{
+        width: 25%;
+    }
+
+    #last{
+        width: 500px;
+    }
+    #top{
+        margin: 0 8% 0 8%;
+    }
+    #top img{
+        width: 8%;
+    }
+    #sns_area{
+        text-align:unset;
+        width: 25%;
+    }
+    #foot_img{
+        width: 40%;
+    }
+    #foot_img img{
+        width: 60%;
+        margin-left: 12%;
+    }
+    small{
+        font-size: large;
+    }
+    #sns_area img{
+        width: 37%;
+        margin: 50px 0px 0px 50px;
+    }
+
+    #main_1_catch,#main_2_news{
+        width: 500px;
+        margin: 0;
+    }
+    #main_1_catch{
+        display: block;
+    }
+    #main_1_catch img{
+        width: 97%;
+    }
+    #main_2_news img{
+        width: 40%;
+    }
+    #main_2_news h2{
+        left: 50px;
+    }
+    #main_1_introduce,#main_2_map{
+        width: 500px;
+        display: block;
+    }
+    #main_1_introduce img{
+        width: 40%;
+    }
+    #main_1_introduce h2{
+        left: 20%;
+    }
+    #main_1_introduce p{
+        padding: 0 6% 0 6%;
+    }
+    .cen_posi{
+        width: 500px;
+    }
+    .menu_area{
+        width: 500px;
+    }
+    .menu_con{
+        width: 500px;
+        padding-left: 0px
+    }
+    .menu_con img{
+        width: 33%;
+    }
+    #main_1_introduce h2{
+        left: 25px;
+    }
+    .rec_cont{
+        width: 500px;
+    }
+    .fle_img img{
+        width: 12%;
+    }
+    .cmnt{
+        width: 500px;
+    }
+    .sent{
+        width: 85%;
+        padding-left: 18%;
+    }
+    .cen_posi_2{
+        width: 500px;
+    }
+    .main_contact img{
+        width: 40%;
+    }
+    .main_contact h2{
+        top: 6px;
+        left: 6%;
+    }
+    .cen_posi_img img{
+        height: 300px;
+    }
+    form{
+        padding-left: 10px;
+        padding-top: 0;
+        top: 100px;
+    }
+    .for_bu{
+        margin-left: 50%;
+    }
+    #name{
+        width: 80%;
+    }
+    .map_img{
+        width: 34%;
+        margin-left: 20%;
+        border-radius: 20px;
+        top: 60px;
+        left: 60px;
+    }
+    #main_2_map ul{
+        left: 100px;
+        top: 220px;
+        font-size: large;
+    }
+} 

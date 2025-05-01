@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>純喫茶ハトの巣-ホーム</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/ico" href="image/logo.png">
+</head>
+<body>
+    <!--<div id="container">                コンテナ-->
+        <header>
+            <div id="back">
+                <div id="head_nav">         <!---ヘッダーナビ-->
+                    <img src="image/logo.png">
+                    <h1>純喫茶ハトの巣</h1>
+                </div>
+                <div class="slideshow">        <!---スライドショーで画像を紹介------->
+                    <div class="slide">
+                        <img src="image/master.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="image/tambler.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="image/sabure.jpg">
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <nav>                           <!---ナビ-->
+            <ul>
+                <li><a href="introduce.html" class="link-box"><img src="image/about.png"><span>ハトの巣について</span></a></li>
+                <li><a href="menu.html" class="link-box"><img src="image/cop.png"><span>メニュー</span></a></li>
+                <li><a href="shopping.html" class="link-box"><img src="image/contact.png"><span>お問い合わせ</span></a></li>
+                <li><a href="recruite.html" class="link-box"><img src="image/recruite.png"><span>採用情報</span></a></li>
+            </ul>
+        </nav>
+        <div class="breadcrumb">
+            <ul>
+              <li><a href="index.html">ホーム</a></li>
+              <li>お問い合わせ</li>
+            </ul>
+        </div>
+        <div class="cen_posi_2">
+            <div class="main_contact">
+                <img src="image/header_comment.png">
+                <h2>お問い合わせ</h2>
+            </div>
+            <form action="送信先URL" method="POST" id="name">
+                <label for="name" class="for_col">名前：</label>
+                <input type="text" id="name" name="name">
+                <label for="email" class="for_col" id="mail">メールアドレス：</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label class="for_col">生年月日：</label>
+                <select name="birth">
+                    <option value="2016">2004年</option>
+                    <option value="2016">2005年</option>
+                    <option value="2016">2006年</option>
+                    <option value="2016">2007年</option>
+                </select>
+                <select name="month">
+                    <option value="1">1月</option>
+                    <option value="2">2月</option>
+                    <option value="3">3月</option>
+                    <option value="4">4月</option>
+                </select>
+                <label class="for_col">ここのお店をどうやって知りましたか？ </label> 
+                    <input type="radio" id="sns" name="howto" value="SNS等">
+                    <label>SNS等</label>
+                    <input type="radio" id="panf" name="howto" value="パンフレット">
+                    <label>パンフレット</label>
+                    <input type="radio" id="panf" name="howto" value="パンフレット">
+                    <label>友達から</label>
+                <br><br>
+                <label for="message" class="for_col">メッセージ：</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea><br>
+              
+                <button type="submit" class="for_bu">送信</button>
+                <button type="reset">キャンセル</button> 
+              </form>
+              <p class="cen_posi_img"><img src="image/comment_intro.png"></p>
+        </div>
+        <div id="last">
+            <p id="top">
+                <input type="text" id="searchInput" placeholder="検索語を入力" />
+                <button onclick="searchText()">検索</button>
+                <!--<p id="content">
+                    これはテスト用のコンテンツです。JavaScriptを使ってページ内検索ができます。
+                    検索機能はとても便利です。
+                </p>-->
+                <a href="index.html"<span id="text"><img src="image/home.png">ホームに戻る</span></a>
+            </p>
+        </div>
+        <footer>
+            <div id="foot_img">
+                <a href="index.html"><img src="image/logo.png"></a>
+            </div>
+            <p><small>© Hatono-Su_cafe </small><br>
+                <small>TEL:0120-1093-8103</small></p>
+            <div id="sns_area">
+                <a href="mailto:example@goukaku.com"><img src="image/line.png"></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>純喫茶ハトの巣-ホーム</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" type="image/ico" href="image/logo.png">
+</head>
+<body>
+    <!--<div id="container">                コンテナ-->
+        <header>
+            <div id="back">
+                <div id="head_nav">         <!---ヘッダーナビ-->
+                    <img src="image/logo.png">
+                    <h1>純喫茶ハトの巣</h1>
+                </div>
+                <div class="slideshow">        <!---スライドショーで画像を紹介------->
+                    <div class="slide">
+                        <img src="image/master.jpeg">
+                    </div>
+                    <div class="slide">
+                        <img src="image/tambler.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="image/sabure.jpg">
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <nav>                           <!---ナビ-->
+            <ul>
+                <li><a href="introduce.html" class="link-box"><img src="image/about.png"><span>ハトの巣について</span></a></li>
+                <li><a href="menu.html" class="link-box"><img src="image/cop.png"><span>メニュー</span></a></li>
+                <li><a href="shopping.html" class="link-box"><img src="image/contact.png"><span>お問い合わせ</span></a></li>
+                <li><a href="recruite.html" class="link-box"><img src="image/recruite.png"><span>採用情報</span></a></li>
+            </ul>
+        </nav>
+        <div class="breadcrumb">
+            <ul>
+              <li><a href="index.html">ホーム</a></li>
+              <li>メニュー</li>
+            </ul>
+        </div>
+        <div class="cen_posi">
+            <div id="main_1_introduce">
+                <img src="image/header_comment.png">
+                <h2>メニュー</h2>
+            </div>
+            <div class="menu_con">
+                <img src="image/tag03.png" class="tag_col">
+                <img src="image/tag01.png">
+                <img src="image/tag02.png" class="tag_col">
+            </div>
+            <div class="menu_area">
+                <div class="contents">
+                    <div class="con_back">
+                        <div class="con_img">
+                            <img src="image/coffee_.png">
+                            <h2 class="name">オリジナルコーヒー</h2>
+                            <h3><span class="col">値段</span>:200円</h3>
+                            <p>開店当時から続く、風味やスッキリとした<br>味わいにこだわったオリジナルの一杯です！<br>
+                            </p>                        
+                        </div>
+                        <div class="con_img">
+                            <img src="image/blend.png">
+                            <h2 class="name">ブレンドコーヒー</h2>
+                            <h3><span class="col">値段</span>:200円</h3>
+                            <p>開店当時から続く、オリジナルコーヒーを始めとする様々な豆を組み合わせたこだわりの一杯です。
+                            </p>
+                        </div>
+                        <div class="con_img">
+                            <img src="image/moca.png">
+                            <h2 class="name">モカ</h2>
+                            <h3><span class="col">値段</span>:240円</h3>
+                            <p>爽やかな酸味と甘味、コクが特徴のコーヒーです。フルーツのような酸味と、ワインのような芳醇な香りが楽しめ、深煎りではチョコレートのような香りが感じられます。
+                                <br><span class="attention">※ホットとアイスがあります</span>
+                            </p>
+                        </div>
+                        <div class="con_img">
+                            <img src="image/kilimanjaro.png">
+                            <h2 class="name">キリマンジャロ</h2>
+                            <h3><span class="col">値段</span>:240円</h3>
+                            <p>強い酸味とコク、そして甘い香りが特徴のコーヒーです。特に、深煎りすると上品な苦味が楽しめる一杯となっています。
+                                <br><span class="attention">※ホットとアイスがあります</span>
+                            </p>
+                        </div>
+                        <div class="con_img">
+                            <img src="image/blue_mountain.png">
+                            <h2 class="name">ブルーマウンテン</h2>
+                            <h3><span class="col">値段</span>:240円</h3>
+                            <p>バランスの取れた味わいが特徴で、苦み、酸味、甘み、コクが絶妙に調和しており、マイルドな口当たりと滑らかな飲み心地、上品な香りが楽しめる一杯となっています。
+                                <br><span class="attention">※ホットとアイスがあります</span>
+                            </p>
+                        </div>
+                        <div class="con_img">
+                            <img src="image/espresso.png">
+                            <h2 class="name">エスプレッソ</h2>
+                            <h3><span class="col">値段</span>:240円</h3>
+                            <p>苦味とコクが強いのが特徴です。圧力をかけて短時間で抽出するため、コーヒーの旨味が凝縮され、独特の味わいになります。
+                                <br><span class="attention">※ホットとアイスがあります</span>
+                            </p>
+                            <p class="coution">※ミルクや砂糖はお好みでオーダーする際にお申し出ください</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="last">
+            <p id="top">
+                <input type="text" id="searchInput" placeholder="検索語を入力" />
+                <button onclick="searchText()">検索</button>
+                <!--<p id="content">
+                    これはテスト用のコンテンツです。JavaScriptを使ってページ内検索ができます。
+                    検索機能はとても便利です。
+                </p>-->
+                <a href="index.html"<span id="text"><img src="image/home.png">ホームに戻る</span></a>
+            </p>
+        </div>
+        <footer>
+            <div id="foot_img">
+                <a href="index.html"><img src="image/logo.png"></a>
+            </div>
+            <p><small>© Hatono-Su_cafe </small><br>
+                <small>TEL:0120-1093-8103</small></p>
+            <div id="sns_area">
+                <a href="mailto:example@goukaku.com"><img src="image/line.png"></a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
